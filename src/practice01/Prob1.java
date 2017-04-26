@@ -10,9 +10,9 @@ public class Prob1 {
 		int number = scanner.nextInt();
 		//3의 배수 판별 ex)129  = 3의 배수 입니다. 
 		
-		int i=3;
+		int i=3;//3의 배수 확인자 
 		
-		if(number%i==0){
+		if(number%i==0){ //3의 배수에 나누어 떨어지면 3의 배수 확인.
 			System.out.println("3의 배수 입니다. ");
 		}
 		else

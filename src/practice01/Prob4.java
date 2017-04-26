@@ -13,7 +13,7 @@ public class Prob4 {
 		//System.out.println(str.charAt(2)); //문장의 자리수 출력
 		for(int i=0;i<str.length();i++)
 		{
-			count++;
+			count++;//자리수 지정
 			for(int j=0;j<count;j++)
 			{
 				System.out.print(str.charAt(j)); //자리수까지 출력.
